@@ -50,7 +50,7 @@ else
     else 
     {
         mayor = nume3;
-        if (nume1 >= num2) 
+        if (num1 >= num2) 
         {
             centro = num1;
             menor = num2;
@@ -66,4 +66,5 @@ else
     console.log("El orden de mayor a menor es: " + mayor + ", " + centro + ", " + menor);
     console.log("El orden de menor a mayor es: " + menor + ", " + centro + ", " + mayor);
 }
+
 
